@@ -25,3 +25,14 @@ for (const num of marks){
     }
 }
 console.log(largest)
+
+
+
+const numbers =[2,3,6,8,1,8,0,2]
+let sum = 0;
+for (let i=0;i<numbers.length; i++){
+    if (numbers[i]%2==1){
+        sum+=numbers[i]
+    }
+}
+console.log(`sum : ${sum}`)
